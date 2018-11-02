@@ -34,6 +34,14 @@ img{
     box-shadow: 5px 5px #ba3333;
 }
 
+header{
+    display: flex;
+}
+
+header nav{
+    
+}
+
 #logo{
     box-shadow: none;
 }

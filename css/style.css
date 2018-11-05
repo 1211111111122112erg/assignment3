@@ -2,6 +2,41 @@
     box-sizing:border-box;
 }
 
+
+header {
+    display: flex;
+    align-items: center;
+/*    background-color:darkorange;*/
+  
+
+}
+
+header nav {
+    flex: 1;
+}
+
+header nav ul {    
+    display: flex;
+}
+
+header nav li {
+    list-style-type: none;
+    padding: 1em;
+}
+
+
+/*
+body {
+    background-color: black
+}
+*/
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: black
+}
+
+
 html {
     font-family: helvetica;
     color: floralwhite
@@ -11,7 +46,7 @@ html {
    
     font-family: fantasy;
     font-size: 24px;
-    background-color:chocolate
+/*    background-color:chocolate*/
 }
 
 .small {
@@ -20,6 +55,7 @@ html {
 
 .yellow{
     color: antiquewhite;
+    background-color:black
 }
 
 .box{

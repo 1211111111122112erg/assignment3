@@ -36,10 +36,28 @@ body {
     background-color: black
 }
 
+h1 {
+    margin: 40px; color: chocolate;
+     display: flex;
+    flex-direction: column;
+}
 
 html {
     font-family: helvetica;
     color: floralwhite
+}
+
+.main {
+    display: flex;
+    flex: 1
+}
+
+.main item1 {
+    flex: 1
+}
+
+.main item2 {
+    flex: 6
 }
 
 .palace{
@@ -47,6 +65,7 @@ html {
     font-family: fantasy;
     font-size: 24px;
 /*    background-color:chocolate*/
+    color: firebrick
 }
 
 .small {

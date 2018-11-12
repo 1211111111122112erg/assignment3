@@ -87,7 +87,26 @@ html {
 
 img{
     box-shadow: 5px 5px #ba3333;
+    display: flex;
+    flex-direction:column;
+    align-items:flex-start;
+    
 }
+
+
+
+div {
+      display: flex;
+    align-items: center;
+    color: white;
+    padding: 25px;
+   
+}
+div:hover {
+    background-color:darkorange;
+  
+}
+
 
 header{
     display: flex;
@@ -105,4 +124,20 @@ header nav{
     box-shadow: 15px 15px skyblue;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:darkorange;
+}
+
+footer nav ul {    
+    display: flex;
+}
+
+footer nav li {
+    list-style-type: none;
+    font-size: 18px;
+    padding: 10px;
+}
 
